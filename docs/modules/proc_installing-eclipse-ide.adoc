@@ -1,0 +1,60 @@
+[id="installing-eclipse-ide_{context}"]
+= Installing Eclipse IDE
+
+Install Eclipse IDE by downloading it from the Eclipse download page.
+
+Approximate download size: 50 MB
+
+.Prerequisites
+* Java JVM 1.8 or later is installed.
++
+Check the installed Java version with the `java -version` command.
+
+.Procedure
+
+. Navigate to the Eclipse IDE download page link:https://www.eclipse.org/downloads/[https://www.eclipse.org/downloads/] and click the download button.
+
+. On the new page, click *Download* to download the Eclipse IDE installer.
++
+The installer is downloaded as a compressed archive.
+
+. Open the CLI and navigate to the directory where the Eclipse IDE installer is downloaded.
++
+[source,options="nowrap",subs="+quotes"]
+----
+$ cd __PATH/TO/DOWNLOAD__
+----
+
+ 
+. In the CLI, extract the installer using the following command:
++
+[source,options="nowrap",subs="+quotes"]
+----
+$ tar xvf eclipse-inst-linux64.tar.gz
+----
+
+. Navigate to the extracted directory:
++
+[source,options="nowrap",subs="+quotes"]
+----
+$ cd eclipse-installer/
+----
+
+. Start the installation process:
++
+[source,options="nowrap",subs="+quotes"]
+----
+$ ./eclipse-inst &
+----
+
+. In the installer, select *Eclipse IDE for Java Developers*.
+
+. Review the paths to *Java 1.8+ VM* and *Installation Folder*. You can use the default values. Click *Install*.
+
+. Click *Accept Now* if you agree with the License agreement to start the installation process.
+
+. When the installation is complete, click the `Launch` button to start Eclipse IDE. 
++
+* In the Eclipse IDE launcher dialog, click `Launch`.
+
+You have installed Eclipse IDE and you can start using it.
