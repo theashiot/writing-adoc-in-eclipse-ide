@@ -1,7 +1,7 @@
 [id="starting-eclipse-ide_{context}"]
 = Starting Eclipse IDE
 
-Start Eclipse IDE from the location at which it is installed.
+Start Eclipse IDE from the location where it is installed.
 
 .Prerequisites
 * Eclipse IDE is installed.
