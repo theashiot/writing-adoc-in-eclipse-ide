@@ -8,15 +8,15 @@ Start Eclipse IDE from the location at which it is installed.
 
 .Procedure
 
-. Navigate to the installation location of Eclipse IDE in file manager. The location is set during installation.
+. Go to the installation location of Eclipse IDE in file manager. The location is set during installation.
 +
 In Fedora, Eclipse IDE is usually installed at `/Home/eclipse/java-_xxxx-xx_/eclipse`.
 
 . Double-click `eclipse`.
 
-. Select the Workspace you want to work with.
+. Select the workspace you want to use.
 +
-If you have not configured any Workspace, leave the value to the default value.
+If you have not configured any workspace, you can use the default workspace.
 
 . Click *Launch*.
 
