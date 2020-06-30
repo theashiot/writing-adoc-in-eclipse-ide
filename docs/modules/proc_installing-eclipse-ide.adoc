@@ -12,9 +12,11 @@ Check the installed Java version with the `java -version` command.
 
 .Procedure
 
-. Navigate to the Eclipse IDE download page link:https://www.eclipse.org/downloads/[https://www.eclipse.org/downloads/] and click the download button.
+. Go to the Eclipse IDE download page link:https://www.eclipse.org/downloads/[https://www.eclipse.org/downloads/] and click the download button.
++
+A new page containing download details for Eclipse IDE opens.
 
-. On the new page, click *Download* to download the Eclipse IDE installer.
+. Click *Download* to download the Eclipse IDE installer.
 +
 The installer is downloaded as a compressed archive.
 
@@ -33,14 +35,14 @@ $ cd __PATH/TO/DOWNLOAD__
 $ tar xvf eclipse-inst-linux64.tar.gz
 ----
 
-. Navigate to the extracted directory:
+. Navigate to the directory where you have extracted the installer:
 +
 [source,options="nowrap",subs="+quotes"]
 ----
 $ cd eclipse-installer/
 ----
 
-. Start the installation process:
+. Start the installation using the following command::
 +
 [source,options="nowrap",subs="+quotes"]
 ----
@@ -53,8 +55,8 @@ $ ./eclipse-inst &
 
 . Click *Accept Now* if you agree with the License agreement to start the installation process.
 
-. When the installation is complete, click the `Launch` button to start Eclipse IDE. 
+. When the installation is complete, click the *Launch* to start Eclipse IDE. 
 +
-* In the Eclipse IDE launcher dialog, click `Launch`.
+* In the Eclipse IDE Launcher dialog box, click *Launch*.
 
 You have installed Eclipse IDE and you can start using it.
