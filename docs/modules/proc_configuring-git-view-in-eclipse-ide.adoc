@@ -1,0 +1,27 @@
+[id="configuring-git-view-in-eclipse-ide_{context}"]
+= Configuring Git views in Eclipse IDE
+
+Configure Git views in Eclipse IDE to access Git-related functions, such as cloning a Git repository, staging and pushing changes.
+
+.Prerequisites
+
+* Eclipse IDE is started.
+
+.Procedure
+
+. Click *Window* -> *Show View* -> *Other*.
++
+A dialog box containing options appears.
+
+. Expand *Git* and select the views *Git Reflog*, *Git Repositories* and *Git Staging* you require.
++
+Click each option while holding down the ctrl key.
+
+. Click *Open*.
++
+The following elements become visible:
+
+* *Git Repositories*, a vertical pane in the left part of the IDE.
+* *Git Reflog* and *Git Staging* tabs in the bottom part of the IDE.
+
+Use these views for Git-related tasks. 
