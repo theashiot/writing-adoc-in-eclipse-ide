@@ -9,17 +9,19 @@ Configure Git views in Eclipse IDE to access Git-related functions, such as clon
 
 .Procedure
 
+. If `Welcome` page is open in the IDE, close the page.
+
 . Click *Window* -> *Show View* -> *Other*.
 +
-A dialog box containing options appears.
+A dialog box containing view options opens.
 
-. Expand *Git* and select the views *Git Reflog*, *Git Repositories* and *Git Staging* you require.
+. Expand *Git* and select the *Git Reflog*, *Git Repositories* and *Git Staging* views.
 +
-Click each option while holding down the ctrl key.
+TIP: Press Ctrl and click to select multiple views.
 
 . Click *Open*.
 +
-The following elements become visible:
+The following views open in Eclipse IDE:
 
 * *Git Repositories*, a vertical pane in the left part of the IDE.
 * *Git Reflog* and *Git Staging* tabs in the bottom part of the IDE.
