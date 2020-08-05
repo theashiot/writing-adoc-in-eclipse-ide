@@ -1,0 +1,21 @@
+[id="importing-a-local-git-repository-in-eclipse_{eclipse}"]
+= Importing a local Git repository in Eclipse IDE
+
+Import your local Git repository in the Eclipse IDE. 
+
+.Prerequisites
+* The repository to import in Eclipse IDE exists on your local machine.
+* Git views are added in Eclipse IDE.
+
+.Procedure
+
+. Right-click anywhere in the *Git Repositories* view, and click *Add a Git Repository...*.
+
+. In the *Add Git Repositories* dialog, click *Browse...*.
+. Click the local Git repository directory and click *Open*.
+. Check the repository listed in the *Add Git Repositories* dialog.
++
+If you do not see a repository listed, you selected an incorrect directory in the previous step.
+. Click *Add*.
++
+The selected repository is listed in the *Git Repositories* view. 
