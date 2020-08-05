@@ -23,8 +23,8 @@ TIP: Press Ctrl and click to select multiple views.
 +
 The following views open in Eclipse IDE:
 
-* *Git Repositories* - Provides an interface to manage Git repositories.
-* *Git Reflog* - 
-* *Git Staging* tabs in the bottom part of the IDE.
+* *Git Repositories* - Shows an interface to manage your Git repositories.
+* *Git Reflog* - Shows the Git history for your repository.
+* *Git Staging* - Shows the interface to add, commit and push files to your repository.
 
 Use these views for Git-related tasks. 
