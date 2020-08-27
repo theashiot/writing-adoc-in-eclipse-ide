@@ -1,0 +1,25 @@
+[id="adding-a-local-git-repository-in-eclipse_{context}"]
+= Adding a local Git repository in Eclipse IDE
+
+Add your local Git repository in the Eclipse IDE. 
+
+.Prerequisites
+* The repository you want to add in Eclipse IDE exists on your local machine.
+* Git views are added in Eclipse IDE.
+
+.Procedure
+
+. Right-click anywhere in the *Git Repositories* view, and click *Add a Git Repository*.
++
+NOTE: If you are adding a Git repository for the first time, you can directly us the *Add an existing local Git repository* command available in the *Git Repositories* view. 
+
+. In the *Add Git Repositories* dialog, click *Browse*.
+. Select the local Git repository directory and click *Open*.
+. Select the repository listed in the *Add Git Repositories* dialog.
++
+If you select a directory that is not a Git repository, the directory is not listed in the dialog.
++
+TIP: Git repositories contain a hidden file called `.git`.
+. Click *Add*.
++
+The selected repository is listed in the *Git Repositories* view in Eclipse IDE.
