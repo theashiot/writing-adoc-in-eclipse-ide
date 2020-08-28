@@ -1,0 +1,12 @@
+:toc:
+:numbered:
+[id="using-eclipse-for-documentation_{context}"]
+= Using Eclipse IDE for documentation
+
+include::modules/proc_installing-eclipse-ide.adoc[leveloffset=+1]
+
+include::modules/proc_starting-eclipse-ide.adoc[leveloffset=+1]
+
+include::modules/proc_adding-git-views-in-eclipse-ide.adoc[leveloffset=+1]
+
+include::modules/proc_adding-a-local-git-repository-in-eclipse.adoc[leveloffset=+1]
