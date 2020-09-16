@@ -1,0 +1,28 @@
+[id="importing-a-documentation-project-in-eclipse-ide_{context}"]
+= Importing a documentation project in Eclipse IDE
+
+Import an existing documentation project in Eclipse IDE.
+
+.Prerequisites
+
+* The Git repository containing the documentation projectis added in Eclipse IDE.
+
+.Procedure
+
+. Click *File* -> *Import*.
++
+A dialog box containing Import wizards opens.
+
+. Select *General* -> *Projects from Folder or Archive* and click *Next*.
+
+. In the *Import Projects from File System and Archive* dialog, click *Directory*.
+
+. Select the directory containing the documentation repository and click *Open*.
+
+. Unselect *Search for nested projects*, and *Detect and configure project natures*.
+
+. Click *Finish*.
++
+The selected documentation project is listed in the *Package Explorer* view in Eclipse IDE.
+
+
