@@ -1,7 +1,7 @@
 [id="installing-asciidoc-editor-in-eclipse-ide_{context}"]
-= Installing Asciidoctor editor plugin in Eclipse IDE
+= Installing Asciidoctor Editor plugin in Eclipse IDE
 
-Install Asciidoctor editor plugin in Eclipse IDE to edit asciidoc files with a live preview.
+Install Asciidoctor Editor plugin in Eclipse IDE to edit AsciiDoc files. The editor renders the HTML preview of the AsciiDoc content.
 
 Approximate download size: 41.34 MB
 
@@ -9,14 +9,17 @@ Approximate download size: 41.34 MB
 * Eclipse IDE is started.
 
 .Procedure
-. Navigate to link:https://marketplace.eclipse.org/content/asciidoctor-editor[].
-. Drag the *Install* button from the asciidoctor editor page and drop it in Eclispe IDE.
+. If `Welcome` page is open in the IDE, close the page.
+. Go to the link:https://marketplace.eclipse.org/content/asciidoctor-editor[Eclipse Marketplace for Asciidoctor Editor].
+. Drag the *Install* button from the Asciidoctor Editor page to Eclipse IDE.
 . In the *Eclipse Marketplace* dialog, click *Confirm*.
-. Review the license, select *I accept the terms of the license agreement* and click *Finish* to start the installation process.
-. Check the certificate `Albert Tregnaghi;de.jcup;Private person` and click *Accept selected*.
-. Click *Restart Now* when prompted to finish installation.
+. Review the license and accept it.
+. Click *Finish* to start the installation process.
+. Select `Albert Tregnaghi;de.jcup;Private person` certificate.
+. Click *Accept selected*.
+. Click *Restart Now* when prompted to complete the installation.
 
-Start editing asciidoc files in Eclipse IDE with a live preview.
+You can edit AsciiDoc files in Eclipse IDE with a preview.
 
 .Additional resources
-* link:https://marketplace.eclipse.org/content/asciidoctor-editor[]
+* link:https://marketplace.eclipse.org/content/asciidoctor-editor[Eclipse Marketplace for Asciidoctor Editor]
