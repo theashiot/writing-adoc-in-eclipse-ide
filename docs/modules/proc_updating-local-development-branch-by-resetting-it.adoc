@@ -1,0 +1,44 @@
+[id="updating-local-development-branch-by-resetting-it_{context}"]
+= Updating local development branch by resetting it
+
+Update your local development branch by resetting it with the remote development branch. 
+
+[TIP]
+====
+Usually the development branch is called `main`. However, your development branch could have a different name.
+====
+
+.Prerequisites
+* You have fetched the latest changes from remote repository.
+
+.Procedure
+
+. In the *Git Repositories* view, expand the repository you are working with.
+. Expand *Branches* -> *Local*.
+. See which branch you are in - the branch has a check-mark.
++
+If you are in a branch other than the development branch, commit all the changes from the *Git Staging* view.
+
+. Checkout the development branch by double-clicking the development branch name.
++
+For example, if your development branch is called 
+`main`, double-click `main`.
+. Expand *Remote Tracking*.
+. Right-click the name of the branch you are resetting to.
++
+For example, if your development branch is called `main` and the remote repository is called `upstream`, right-click `upstream/main`.
+
+. Click *Reset*, select the reset type.
++
+[WARNING]
+====
+A hard reset causes you to lose any local changes in your current branch. 
+
+If your workflow does not explicitly require resetting, consider rebasing instead. 
+====
+** To preserve your local changes, select *Soft*. A soft reset brings in the changes as unstaged changes. 
+** To undo any local changes select *Hard*. A hard reset makes your local branch identical to the remote branch. 
+
+. Click *Finish*.  
+
+Your local development branch is up-to-date with the remote development branch.
