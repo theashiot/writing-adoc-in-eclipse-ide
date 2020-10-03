@@ -12,7 +12,7 @@ Import an existing documentation project in Eclipse IDE.
 
 . Click *File* -> *Import*.
 +
-A dialog box containing Import wizards opens.
+A dialog box containing the import wizards opens.
 
 . Select *General* -> *Projects from Folder or Archive* and click *Next*.
 
@@ -20,7 +20,7 @@ A dialog box containing Import wizards opens.
 
 . Select the directory containing the documentation repository and click *Open*.
 
-. Clear *Search for nested projects*, and *Detect and configure project natures*.
+. Clear the *Search for nested projects* and *Detect and configure project natures* check boxes.
 
 . Click *Finish*.
 +
