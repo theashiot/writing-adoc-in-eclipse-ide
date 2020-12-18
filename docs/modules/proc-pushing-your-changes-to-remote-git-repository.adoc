@@ -6,16 +6,16 @@
 = Pushing your changes to remote Git repository
 
 [role="_abstract"]
-When you have saved your changes locally, push the changes to your remote Git repository. 
-
+When you have saved your changes locally in your branch, push the changes to your remote Git repository. 
 
 .Prerequisites
 * The local Git repository is added to Eclipse IDE.
+* You are in the correct Git branch.
 
 .Procedure
 . Stage your changes.
 .. In the *Git Staging* view, select the files listed in the *Unstaged Changes* pane that you want to stage. 
-.. Click the the plus icon to stage the selceted files.  
+.. Click the the plus icon to stage the selected files.  
 +
 The selected files are now listed in the *Staged Changes* pane.
 
@@ -32,9 +32,14 @@ NOTE: If you want to amend a previous commit, click the icon for *Amend* that is
 
 .. Click *Next*.
 .. Click *Finish*.
++
+The *Push Result* dialog displays the result of the push. If the push succeeded, the message contains the link to pull request for the push.
+
+.. Note the link to the pull request in the message and click *Close*.
 
 .Verification steps
+* Open the link to your pull request in a web browser to verify that your changes were pushed correctly.
 
+Your local changes are now pushed to your remote repository. 
 
-[role="_additional-resources"]
-.Additional resources
+If you pushed the present branch for the first time, a new pull request is created. Otherwise, the existing pull request is updated.
