@@ -1,0 +1,24 @@
+[id="getting-the-latest-changes-from-a-remote-repository_{context}"]
+= Getting the latest changes from a remote repository
+
+Get the latest changes from configured remote repository by using the Git Fetch functionality in Eclipse IDE.
+
+.Prerequisites
+* Git repository is added in Eclipse IDE.
+* Git views are configured in Eclipse IDE.
+
+.Procedure
+
+. In the *Git Repositories* view, expand your working repository.
+. Expand *Remotes*.
+.  Right-click the remote repository from which you want to get the latest changes and click *Fetch*.
++
+[TIP]
+====
+The repository you cloned from is usually called `origin`.
+
+If you work on a forked repository, `origin` is your fork. 
+====
+. Click *Close*.
+
+You have the latest changes on your local machine.
