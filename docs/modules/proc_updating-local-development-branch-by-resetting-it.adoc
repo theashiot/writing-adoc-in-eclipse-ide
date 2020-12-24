@@ -1,11 +1,13 @@
 [id="updating-local-development-branch-by-resetting-it_{context}"]
-= Updating local development branch by resetting it
+= Resetting the local main branch with the remote main branch
 
-Update your local development branch by resetting it with the remote development branch. 
+Reset your local main branch with the remote main branch to make your local main branch up-to-date with the remote main branch.
 
-[TIP]
+In this procedure, we assume that main, or the default, branch is called `main`. 
+
+[NOTE]
 ====
-Usually the development branch is called `main`. However, your development branch could have a different name.
+This procedure is not suitable for all workflows. If you are not sure whether your workflow requires a reset, consult the contribution guide for your project.  
 ====
 
 .Prerequisites
@@ -13,32 +15,29 @@ Usually the development branch is called `main`. However, your development branc
 
 .Procedure
 
-. In the *Git Repositories* view, expand the repository you are working with.
+. In the *Git Repositories* view, expand your working repository.
 . Expand *Branches* -> *Local*.
 . See which branch you are in - the branch has a check-mark.
 +
 If you are in a branch other than the development branch, commit all the changes from the *Git Staging* view.
-
-. Checkout the development branch by double-clicking the development branch name.
 +
-For example, if your development branch is called 
-`main`, double-click `main`.
+[IMPORTANT]
+====
+Eclipse IDE does not warn you if you have uncommitted changes when checking out another branch. 
+====
+. Double-click `main` to checkout the `main` branch.
+
 . Expand *Remote Tracking*.
 . Right-click the name of the branch you are resetting to.
 +
-For example, if your development branch is called `main` and the remote repository is called `upstream`, right-click `upstream/main`.
+For example, if your remote repository is called `upstream`, right-click `upstream/main`.
 
-. Click *Reset*, select the reset type.
+. Click *Reset*, select *Hard*.
 +
 [WARNING]
 ====
-A hard reset causes you to lose any local changes in your current branch. 
-
-If your workflow does not explicitly require resetting, consider rebasing instead. 
+A hard reset causes you to lose all the local changes in your current branch.  
 ====
-** To preserve your local changes, select *Soft*. A soft reset brings in the changes as unstaged changes. 
-** To undo any local changes select *Hard*. A hard reset makes your local branch identical to the remote branch. 
-
 . Click *Finish*.  
 
-Your local development branch is up-to-date with the remote development branch.
+Your local main branch is up-to-date with the remote main branch.
