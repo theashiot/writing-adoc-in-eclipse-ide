@@ -1,9 +1,15 @@
-[id="updating-local-development-branch-by-resetting-it_{context}"]
+// Module included in the following assemblies:
+//
+// <List assemblies here, each on a new line>
+
+[id="proc-resetting-the-local-main-branch-with-the-remote-main-branch_{context}"]
+
 = Resetting the local main branch with the remote main branch
 
-Reset your local main branch with the remote main branch to make your local main branch up-to-date with the remote main branch.
+[role="_abstract"]
+Reset your local main branch with the remote main branch. This makes your local main branch up-to-date with the remote main branch.
 
-In this procedure, we assume that main, or the default, branch is called `main`. 
+In this procedure, we assume that main or the default branch is called `main`. 
 
 [NOTE]
 ====
@@ -17,9 +23,9 @@ This procedure is not suitable for all workflows. If you are not sure whether yo
 
 . In the *Git Repositories* view, expand your working repository.
 . Expand *Branches* -> *Local*.
-. See which branch you are in - the branch has a check-mark.
+. See which branch you are in. The branch with check mark is your working branch.
 +
-If you are in a branch other than the development branch, commit all the changes from the *Git Staging* view.
+If you are in a branch other than the `main` branch, commit all the changes from the *Git Staging* view.
 +
 [IMPORTANT]
 ====
@@ -28,11 +34,11 @@ Eclipse IDE does not warn you if you have uncommitted changes when checking out 
 . Double-click `main` to checkout the `main` branch.
 
 . Expand *Remote Tracking*.
-. Right-click the name of the branch you are resetting to.
+. Select the branch with which you want to reset your `main` branch.
 +
-For example, if your remote repository is called `upstream`, right-click `upstream/main`.
+For example, if your remote repository is called `upstream`, select `upstream/main`.
 
-. Click *Reset*, select *Hard*.
+. Right-click and click *Reset* -> *Hard*.
 +
 [WARNING]
 ====
