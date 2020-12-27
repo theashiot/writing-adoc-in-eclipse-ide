@@ -23,7 +23,7 @@ This procedure is not suitable for all workflows. If you are not sure whether yo
 
 . In the *Git Repositories* view, expand your working repository.
 . Expand *Branches* -> *Local*.
-. See which branch you are in. The branch with check mark is your working branch.
+. Check your current working branch. The branch with check mark is your working branch.
 +
 If you are in a branch other than the `main` branch, commit all the changes from the *Git Staging* view.
 +
