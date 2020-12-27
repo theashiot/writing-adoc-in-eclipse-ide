@@ -17,7 +17,6 @@ In this procedure, we assume that main or the default branch is called `main`.
 
 .Prerequisites
 * Your local `main` branch is up-to-date with the remote `main` branch.
-* You are in the `main` branch.
 
 .Procedure
 . In the Git Repositories view, expand your working repository.
