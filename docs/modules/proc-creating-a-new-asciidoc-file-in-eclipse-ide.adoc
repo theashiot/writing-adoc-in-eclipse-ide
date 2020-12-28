@@ -1,0 +1,36 @@
+// Module included in the following assemblies:
+//
+// <List assemblies here, each on a new line>
+
+[id="proc-creating-a-new-asciidoc-file-in-eclipse-ide_{context}"]
+= Creating a new AsciiDoc file in Eclipse IDE
+
+[role="_abstract"]
+Create a new AsciiDoc file in Eclipse IDE.
+When you create a new file, it opens in the editor along with the HTML preview. 
+
+The HTML preview refreshes each time you save the file.
+
+.Prerequisites
+* AsciiDoctor Editor plugin is installed in Eclipse IDE.
+* The documentation project has been imported into Eclipse IDE.
+
+.Procedure
+
+. In the *Project Explorer* view, expand the documentation project directory.
+
+. Right click the directory in which you want to create a new file. 
+
+. Click *New* -> *File*.
+
+. Enter the file name with `.adoc` file extension.
++
+For example: `my-new-file.adoc`.
++
+TIP: While naming the file, follow the naming conventions of your project.
+
+. Click *Finish*. 
++
+The new file opens in the editor.
+
+Start writing in the new file. To refresh the preview after you make changes, save the file again.
