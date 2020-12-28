@@ -1,0 +1,49 @@
+// Module included in the following assemblies:
+//
+// <List assemblies here, each on a new line>
+
+[id="proc-resetting-the-local-main-branch-with-the-remote-main-branch_{context}"]
+
+= Resetting the local main branch with the remote main branch
+
+[role="_abstract"]
+Reset your local main branch with the remote main branch. This makes your local main branch up-to-date with the remote main branch.
+
+In this procedure, we assume that main or the default branch is called `main`. 
+
+[NOTE]
+====
+This procedure is not suitable for all workflows. If you are not sure whether your workflow requires a reset, consult the contribution guide for your project.  
+====
+
+.Prerequisites
+* You have fetched the latest changes from remote repository.
+
+.Procedure
+
+. In the *Git Repositories* view, expand your working repository.
+. Expand *Branches* -> *Local*.
+. Check your current working branch. The branch with check mark is your working branch.
++
+If you are in a branch other than the `main` branch, commit all the changes from the *Git Staging* view.
++
+[IMPORTANT]
+====
+Eclipse IDE does not warn you if you have uncommitted changes when checking out another branch. 
+====
+. Double-click `main` to checkout the `main` branch.
+
+. Expand *Remote Tracking*.
+. Select the branch with which you want to reset your `main` branch.
++
+For example, if your remote repository is called `upstream`, select `upstream/main`.
+
+. Right-click and click *Reset* -> *Hard*.
++
+[WARNING]
+====
+A hard reset causes you to lose all the local changes in your current branch.  
+====
+. Click *Finish*.  
+
+Your local main branch is up-to-date with the remote main branch.
