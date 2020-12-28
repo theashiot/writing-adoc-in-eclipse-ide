@@ -35,7 +35,7 @@ NOTE: If you want to amend a previous commit, click the amend icon in the *Commi
 +
 The *Push Result* dialog displays the result of the push. If the push succeeded, the message contains the link to pull request for the push.
 
-.. Note the link to the pull request in the message and click *Close*.
+.. Make a note the link to the pull request in the message and click *Close*.
 
 .Verification steps
 * Open the link to your pull request in a web browser to verify that your changes were pushed correctly.
