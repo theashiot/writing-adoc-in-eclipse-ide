@@ -1,0 +1,33 @@
+// Module included in the following assemblies:
+//
+// <List assemblies here, each on a new line>
+
+
+[id="proc-checking-out-a-branch-from-local-main-branch_{context}"]
+
+
+= Checking out a branch from local main branch
+
+[role="_abstract"]
+Check out a branch from the `main` branch. 
+
+When you check out a branch, the branch becomes your working branch. 
+
+In this procedure, we assume that main or the default branch is called `main`.
+
+.Prerequisites
+* Your local `main` branch is up-to-date with the remote `main` branch.
+
+.Procedure
+. In the Git Repositories view, expand your working repository.
+. Expand Branches → Local.
+. Right-click the `main` branch.
+. Click *Create Branch*.
+. Enter the name for the branch.
++
+TIP: While naming the branches, follow the naming convention used in your project. See the contribution guidelines for your project for naming conventions.
+ 
+. Click *Finish*.
+
+Your working branch is now the new branch.
+
