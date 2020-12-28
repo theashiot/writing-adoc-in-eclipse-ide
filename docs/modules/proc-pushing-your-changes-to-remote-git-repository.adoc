@@ -28,7 +28,7 @@ NOTE: If you want to amend a previous commit, click the amend icon in the *Commi
 .. In the *Push branch* dialog, review the following options:
 +
 * Clear the *Configure upstream for push and pull* check box.
-* If you have amended a commit that was already pushed previously, select *Force overwrite branch in remote if it exists and has diverged.*. 
+* If you have amended a commit that was previously pushed, select the *Force overwrite branch in remote if it exists and has diverged* check box. 
 
 .. Click *Next*.
 .. Click *Finish*.
