@@ -10,24 +10,24 @@ When you have saved your changes locally in your branch, push the changes to you
 
 .Prerequisites
 * The local Git repository is added to Eclipse IDE.
-* You are in the correct Git branch.
+* You have checked out the correct Git branch.
 
 .Procedure
 . Stage your changes.
 .. In the *Git Staging* view, select the files listed in the *Unstaged Changes* pane that you want to stage. 
-.. Click the the plus icon to stage the selected files.  
+.. Click the plus icon to stage the selected files.
 +
 The selected files are now listed in the *Staged Changes* pane.
 
 . Commit and push your changes.
 +
-NOTE: If you want to amend a previous commit, click the icon for *Amend* that is located in the *Commit Message* pane.
+NOTE: If you want to amend a previous commit, click the amend icon in the *Commit Message* pane.
  
 .. In the *Git Staging* view, enter the commit message in the *Commit Message* pane.
 .. Click *Commit and Push*.
 .. In the *Push branch in Remote* dialog, review the following options:
 +
-* Unselect *Configure upstream for push and pull*.
+* Clear the *Configure upstream for push and pull* check box.
 * If you have amended a commit that was already pushed previously, select *Force overwrite branch in remote if it exists and has diverged.*. 
 
 .. Click *Next*.
