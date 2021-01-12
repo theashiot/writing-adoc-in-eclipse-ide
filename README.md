@@ -1,18 +1,5 @@
-# writing-adoc-in-eclipse-ide
-This repository contains how-to for managing adoc sources in eclipse together with git
+# Using Eclipse IDE for AsciiDoc files based documentation project
 
-Initializing the tree
+This repository contains instructions on using Eclipse IDE for managing documentation projects that use AsciiDoc.
 
-* mkdir -p docs/assemblies
-
-* mkdir -p docs/modules/_images
-
-* mkdir -p docs/_artifacts
-
-* echo "This directory contains assemblies" > docs/assemblies/init-file.adoc
-
-* echo "This directory contains images" > docs/modules/_images/init-file.adoc
-
-* echo "This directory contains modules" > docs/modules/init-file.adoc
-
-* echo "This directory contains artifacts" > docs/_artifacts/init-file.adoc
+More details coming soon.
