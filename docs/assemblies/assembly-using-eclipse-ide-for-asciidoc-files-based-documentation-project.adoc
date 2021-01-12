@@ -2,7 +2,7 @@
 //
 // <List assemblies here, each on a new line>
 
-:toc:
+:toc: left
 :numbered:
 
 ifdef::context[:parent-context: {context}]
