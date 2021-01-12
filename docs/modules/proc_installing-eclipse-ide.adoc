@@ -42,7 +42,7 @@ $ tar xvf eclipse-inst-linux64.tar.gz
 $ cd eclipse-installer/
 ----
 
-. Start the installation using the following command::
+. Start the installation using the following command:
 +
 [source,options="nowrap",subs="+quotes"]
 ----
