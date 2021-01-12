@@ -1,0 +1,45 @@
+// Module included in the following assemblies:
+//
+// <List assemblies here, each on a new line>
+
+[id="proc-pushing-your-changes-to-remote-git-repository_{context}"]
+= Pushing your changes to remote Git repository
+
+[role="_abstract"]
+When you have saved your changes locally in your branch, push the changes to your remote Git repository. 
+
+.Prerequisites
+* The local Git repository is added to Eclipse IDE.
+* You have checked out the correct Git branch.
+
+.Procedure
+. Stage your changes.
+.. In the *Git Staging* view, select the files listed in the *Unstaged Changes* pane that you want to stage. 
+.. Click the plus icon to stage the selected files.
++
+The selected files are now listed in the *Staged Changes* pane.
+
+. Commit and push your changes.
++
+NOTE: If you want to amend a previous commit, click the amend icon in the *Commit Message* pane.
+ 
+.. In the *Git Staging* view, enter the commit message in the *Commit Message* pane.
+.. Click *Commit and Push*.
+.. In the *Push branch* dialog, review the following options:
++
+* Clear the *Configure upstream for push and pull* check box.
+* If you have amended a commit that was previously pushed, select the *Force overwrite branch in remote if it exists and has diverged* check box. 
+
+.. Click *Preview*.
+.. Click *Push*.
++
+The *Push Results* dialog displays the result of the push. If the push succeeded, the message contains the link to pull request for the push.
+
+.. Copy the link to the pull request in the message and click *Close*.
+
+.Verification steps
+* Open the link to your pull request in a web browser to verify that your changes were pushed.
+
+Your local changes are now pushed to your remote repository. 
+
+If you pushed the current branch for the first time, a new pull request is created. Otherwise, the existing pull request is updated.
