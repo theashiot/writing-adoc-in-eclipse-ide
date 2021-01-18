@@ -1,0 +1,9 @@
+The instructions in this guide have been tested with the following configuration:
+
+* Eclipse IDE version: 2020-06(4.16.0)
+* Operating system: Fedora 30 
+
+[NOTE] 
+====
+Instructions about installing Eclipse IDE are Operating System (OS) dependent. The rest of the instructions should work on any OS.
+====
