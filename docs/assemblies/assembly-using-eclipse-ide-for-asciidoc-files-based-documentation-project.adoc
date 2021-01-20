@@ -16,6 +16,8 @@ ifdef::context[:parent-context: {context}]
 [role="_abstract"]
 Use Eclipse IDE to manage your documentation project that uses AsciiDoc files.
 
+include::../_artifacts/supported-sw.adoc[]
+
 //The following document has been tested for Eclipse IDE version 2020-06.
 
 include::../modules/proc_installing-eclipse-ide.adoc[leveloffset=+1]
